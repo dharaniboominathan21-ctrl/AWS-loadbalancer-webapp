@@ -5,8 +5,11 @@
 
 📌 Project Overview
 
+
 This project demonstrates how to launch, connect, and configure an Amazon EC2 instance and deploy a basic web server using Apache (httpd) on Amazon Linux 2023.
 The goal is to understand core EC2 concepts such as instance creation, security groups, SSH access, system updates, and web hosting.
+
+
 
 🛠️ Technologies Used
 
@@ -21,6 +24,8 @@ Apache HTTP Server (httpd)
 EC2 Instance Connect
 
 Linux Commands
+
+
 
 🎯 Project Objectives
 
@@ -38,6 +43,8 @@ Host a simple web page
 
 Verify application using public IP
 
+
+
 📋 Prerequisites
 
 AWS account
@@ -47,6 +54,7 @@ Basic knowledge of Linux commands
 Internet connection
 
 AWS Console access
+
 
 🪜 Step-by-Step Implementation
 
@@ -112,11 +120,15 @@ Open browser:
 
 http://<Public-IP> 
 
+
+
 ✅ Output
 
 Apache web server running successfully
 
 Web page accessible using EC2 public IP
+
+
 
 📸 Screenshots
 
@@ -132,6 +144,8 @@ Apache service status
 
 Web page output
 
+
+
 🧠 Key Learnings
 
 EC2 instance lifecycle management
@@ -144,6 +158,8 @@ Web server deployment on cloud
 
 Troubleshooting SSH connectivity issues
 
+
+
 🔮 Future Enhancements
 
 Use Nginx instead of Apache
@@ -153,6 +169,7 @@ Deploy a dynamic website
 Configure HTTPS using SSL
 
 Automate using User Data or Terraform
+
 
 👤 Author
 
